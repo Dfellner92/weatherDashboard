@@ -1,0 +1,61 @@
+header{
+    font-size: 300%;
+    background-color: gray;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+.card{
+    width: 30%;
+    height: 30%;
+    justify-content: center;
+}
+ul {
+    list-style-type: none;
+  }
+.container{
+    display: flex;
+   justify-content: flex-start;
+
+}
+
+#results-container{
+    background-color: whitesmoke;
+}
+
+#five-day{
+justify-content: center;
+}
+
+.city{
+    font-size: 24px;
+}
+
+.box {
+    display: inline-block;
+    width: 10px;
+    height: 12px;
+}
+
+.green {
+    background: green;
+}
+
+.orange {
+    background: orange;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.red {
+    background: red;
+}
+
+.violet {
+    background: violet;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather-Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"><link/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style2.css"></link>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+  </head>
+  <body>
+    <div class="jumbotron" style="background-color: #20315A ; color: white;">
+        <h1 class="text-center">
+          <strong>
+            <i class="fa fa-cloud"></i> Weather Dashboard
+          </strong>
+        </h1>
+    </div>
+
+    <div class='container'>
+
+        <div class='row'>
+
+          <div class='col-sm-4'>
+            <label for='city-search'><h2>Search for a City</h2></label>
+            <div class='input-group mb-3'>
+              <input type='search' class='form-control' placeholder='Search city' id='city-search'>
+              <div class='input-group-append'>
+                <button class='button'id='search-input' type='button/text'>Search</button>
+              </div>
+            </div>
+            <ul id="list"></ul>  
+            <hr>
+            <div class='search-history'></div>
+          </div>
+ 
+          <div class='col-md-8'>
+            <div class="d-flex flex-column">
+              <div class="p-3 m-3 border border-dark" id="current-weather"><h1>Current Conditions</h1></div>
+              <div class="p-3 m-3 border border-dark"><h1>5 day forecast</h1></div>
+              <div id="five-day" class="row" ></div>
+            </div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script2.js"></script>
+  </body>
+</html>
