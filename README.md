@@ -4,25 +4,9 @@
 
 This app returns a current and 5-day forecast for the city searched for using the Open Weather API. The latest city searched for will be returned should the app close, thanks to local storage. Using local storage instead of a traditional backend works well for the nature of the app, as weather data frequently changes and becomes outdated. 
 
-##### Register
+##### Searched for city
 
-![imageOfSignup](./images/Registration.png)
-
-##### View Registered Attendees
-
-![imageofRegisteredAttendees](./images/ViewAttendees.png)
-
-##### View Individual Attendee
-
-![imageOfIndividualDetails](./images/ViewIndividual.png)
-
-#####  Edit Details
-
-![imageOfEditing](./images/Edit.png)
-
-##### View Changed Details
-
-![imageofEditedDetails](./images/ViewEdited.png)
+![imageOfSearchedCity](Screenshot.png)
 
 ### Technologies 
 - Javascript
