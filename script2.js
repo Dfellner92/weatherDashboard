@@ -149,19 +149,3 @@ function getFiveDay() {
   });
 
 };
-
-//function getFiveDay
-//     $("#list").each(function() {  
-//         localStorage.setItem(searchHistory, city); 
-//         searchHistory++;   
-//         for (i = 1; i < localStorage.length + 1; i++) {
-//           $("#list").prepend(`<button type="button" class="btn btn-secondary btn-lg btn-block" id=${i}>` + city + '</button>')
-//           };   
-//     });
-
-//     $('.btn').on('click', function(){
-//       $('button[type="button"]').each(function(){    
-//           var id = $(this).text();
-//           getWeather(id);                    
-//       }); 
-//   });
